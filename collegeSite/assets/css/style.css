@@ -27,20 +27,23 @@ ul>li {
     height: 100dvh;
     width: 100%;
     padding: 30px 50px;
-    color: #f3f3f3;
-    /* overflow: hidden; */
 }
+
+
+
+
 
 
 /* NAVIGATION BAR */
 
-.logo-container{
-    color: rgb(237, 163, 25) ;
+.logo-container {
+    color: rgb(237, 163, 25);
     font-weight: 500;
     font-size: 1.3rem;
     cursor: pointer;
 }
-.nav-container{
+
+.nav-container {
     background-color: #2d2d2d;
     border-radius: 10px;
     display: flex;
@@ -49,19 +52,13 @@ ul>li {
     padding: 7px 40px;
 }
 
-.nav-section{
+.nav-section {
     width: 80%;
     display: flex;
     justify-content: end;
 }
 
 .nav-menu {
-    /* background-color: red; */
-    /* background: linear-gradient(to right, #725b6b, #4d3848); */
-    /* border: solid 2px #f7f7f779; */
-    /* border-radius: 30px;
-    display: flex;
-    justify-content: center; */
     margin-left: auto;
     padding: 5px 15px;
 
@@ -82,14 +79,106 @@ ul>li {
     cursor: pointer;
 }
 
-.nav-link:hover a{
+.nav-link:hover a {
     /* background-color: #351e33; */
-    color: rgb(237, 163, 25) ;
+    color: rgb(237, 163, 25);
 }
 
 
 
-.active-link a{
+.active-link a {
     color: rgb(237, 163, 25);
     font-weight: 400;
+}
+
+/* MEMBERS PAGE */
+.members-body {
+    padding: 30px 30px;
+}
+
+.current-members{
+    margin-bottom: 40px;
+}
+
+.members-header {
+    text-align: center;
+    color: rgb(237, 163, 25);
+    margin-bottom: 30px;
+}
+
+.member-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.individual-member{
+    border: solid 2px rgb(237, 163, 25);
+    margin-right: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.individual-member:hover{
+    box-shadow: 1px 2px 10px rgba(237, 163, 25, 0.545);
+}
+
+.photo {
+    height: 180px;
+    width: 180px;
+    /* border-radius: 10px; */
+    overflow: hidden;
+}
+
+.member-picture{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.members-info{
+    padding-top: 12px;
+}
+
+.members-info, .member-info > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: red; */
+}
+
+.member-name{
+    /* background: red; */
+    line-height: 16px;
+    font-size: 1.1rem;
+    opacity: 0.7;
+}
+
+.member-major{
+    /* background-color: blue; */
+}
+
+.member-social{
+    /* background: green; */
+    border-top: solid 1px #2d2d2d8a;
+    width: 80%;
+    margin-top: 7px;
+    padding: 7px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.member-social kbd{
+    border: solid 0.5px #2d2d2d;
+    padding: 2px 5px;
+    margin-right: 12px;
+    border-radius: 3px;
+}
+
+.join-club{
+    margin-top: 20px;
+    /* text-align: center; */
 }
