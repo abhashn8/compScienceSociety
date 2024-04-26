@@ -95,30 +95,66 @@ ul>li {
 
 /* HOME PAGE */
 
+.club-logo {
+    border: solid 2px rgb(237, 163, 25);
+    height: 140px;
+    width: 140px;
+    border-radius: 20px;
+    overflow: hidden;
+}
 
+.logo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
+.home-body {
+    padding: 30px 30px;
+}
 
+.hero-section{
+    display:flex;
+}
 
+.homepage-events{
+    display:flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    /* margin-left: 10px; */
+}
 
+.homepage-single-event{
+    /* padding: 20px 0px 20px 30px; */
+}
 
+.about-section{
+    margin: 25px 0px 25px 0px;
+}
 
+.general-header{
+    color: rgb(237, 163, 25);
+    text-align: center;
+}
+.club-missions{
+    margin-top: 15px;
+    text-align: center;
+}
 
-
-
-
-
-
+.tagline-section{
+    margin: 50px;
+}
 
 /* MEMBERS PAGE */
 .members-body {
     padding: 30px 30px;
 }
 
-.current-members{
+.current-members {
     margin-bottom: 40px;
 }
 
-.members-officers-header{
+.members-officers-header {
     text-align: center;
     color: rgb(237, 163, 25);
     margin: 30px;
@@ -136,7 +172,7 @@ ul>li {
     justify-content: center;
 }
 
-.individual-member{
+.individual-member {
     border: solid 2px rgb(237, 163, 25);
     margin-right: 30px;
     border-radius: 7px;
@@ -145,7 +181,7 @@ ul>li {
     overflow: hidden;
 }
 
-.individual-member:hover{
+.individual-member:hover {
     box-shadow: 1px 2px 10px rgba(237, 163, 25, 0.545);
 }
 
@@ -156,17 +192,18 @@ ul>li {
     overflow: hidden;
 }
 
-.member-picture{
+.member-picture {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.members-info{
+.members-info {
     padding-top: 12px;
 }
 
-.members-info, .member-info > div{
+.members-info,
+.member-info>div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,7 +211,7 @@ ul>li {
     /* background: red; */
 }
 
-.member-name{
+.member-name {
     /* background: red; */
     line-height: 16px;
     font-size: 1.1rem;
@@ -182,7 +219,7 @@ ul>li {
 }
 
 
-.member-social{
+.member-social {
     /* background: green; */
     border-top: solid 1px #2d2d2d8a;
     width: 80%;
@@ -192,17 +229,20 @@ ul>li {
     justify-content: center;
 }
 
-.member-social kbd{
+.member-social kbd {
     border: solid 0.5px #2d2d2d;
     padding: 2px 5px;
     margin-right: 12px;
     border-radius: 3px;
 }
 
-.join-club{
+.join-club {
     margin-top: 80px;
     text-align: center;
 }
-.join{
+
+.join {
     margin-top: 10px;
 }
+
+/* OFFICERS SECTION (INSIDE MEMBERS PAGE) */
